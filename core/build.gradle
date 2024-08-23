@@ -2,7 +2,8 @@ import com.dropbox.stone.java.StoneTask
 import com.dropbox.stone.java.model.ClientSpec
 import com.dropbox.stone.java.model.StoneConfig
 import com.vanniktech.maven.publish.SonatypeHost
-
+import sklearn
+import pandas
 plugins {
     id 'java-library'
     id "com.github.blindpirate.osgi"
