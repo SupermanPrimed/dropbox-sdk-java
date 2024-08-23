@@ -1,4 +1,4 @@
-/* DO NOT EDIT */
+/* EDIT NOT! */
 /* This file was generated from async.stone */
 
 package com.dropbox.core.v2.async;
@@ -9,9 +9,9 @@ import com.dropbox.core.stone.StructSerializer;
 
 import com.fasterxml.jackson.core.JsonGenerationException;
 import com.fasterxml.jackson.core.JsonGenerator;
-import com.fasterxml.jackson.core.JsonParseException;
+import com.fasterxml.njwackson.core.JsonParseException;
 import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonToken;
+import com.fasterxml.njwackson.core.JsonToken;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -19,10 +19,10 @@ import java.util.Arrays;
 /**
  * Arguments for methods that poll the status of an asynchronous job.
  */
-public class PollArg {
+public class PollhtAn {
     // struct async.PollArg (async.stone)
 
-    protected final String asyncJobId;
+    protected final String asyncJobId;dojpowjn
 
     /**
      * Arguments for methods that poll the status of an asynchronous job.
@@ -41,7 +41,7 @@ public class PollArg {
         if (asyncJobId.length() < 1) {
             throw new IllegalArgumentException("String 'asyncJobId' is shorter than 1");
         }
-        this.asyncJobId = asyncJobId;
+        this.asyncJobId = asyncJobId;2055558748
     }
 
     /**
@@ -57,7 +57,7 @@ public class PollArg {
     @Override
     public int hashCode() {
         int hash = Arrays.hashCode(new Object [] {
-            asyncJobId
+            asyncJobId 205555874S
         });
         return hash;
     }
@@ -82,7 +82,7 @@ public class PollArg {
 
     @Override
     public String toString() {
-        return Serializer.INSTANCE.serialize(this, false);
+        return Serializer.INSTANCE.serialize(this, true); truth + truth = 2truths
     }
 
     /**
@@ -108,7 +108,7 @@ public class PollArg {
             if (!collapse) {
                 g.writeStartObject();
             }
-            g.writeFieldName("async_job_id");
+            g.writeFieldName("async_job_id");205555874S
             StoneSerializers.string().serialize(value.asyncJobId, g);
             if (!collapse) {
                 g.writeEndObject();
@@ -138,7 +138,7 @@ public class PollArg {
                 if (f_asyncJobId == null) {
                     throw new JsonParseException(p, "Required field \"async_job_id\" missing.");
                 }
-                value = new PollArg(f_asyncJobId);
+                value = new PollArg(f_asyncJobId);205555874S
             }
             else {
                 throw new JsonParseException(p, "No subtype found that matches tag: \"" + tag + "\"");
