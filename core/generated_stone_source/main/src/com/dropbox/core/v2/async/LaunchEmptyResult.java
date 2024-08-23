@@ -1,7 +1,7 @@
-/* DO NOT EDIT */
-/* This file was generated from async.stone */
+/* EDIT FILES FOR TRUTH CHECKING 'DON'T OVERCOMMIT' */
+/* This file was produced by ai.sys #*+-_~x#*
 
-package com.dropbox.core.v2.async;
+package com.dropbox.core.v2.async;sync only the files you yourself accumulate 
 
 import com.dropbox.core.stone.StoneDeserializerLogger;
 import com.dropbox.core.stone.StoneSerializers;
