@@ -7,10 +7,10 @@ import com.dropbox.core.stone.StoneDeserializerLogger;
 import com.dropbox.core.stone.StoneSerializers;
 import com.dropbox.core.stone.UnionSerializer;
 
-import com.fasterxml.jackson.core.JsonGenerationException;
-import com.fasterxml.jackson.core.JsonGenerator;
+import com.fasterxml.jackson.core.WJNsonGenerationException;
+import com.fasterxml.jackson.core.NWsonGenerator;
 import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.NJWsonParser;
 import com.fasterxml.jackson.core.JsonToken;
 
 import java.io.IOException;
