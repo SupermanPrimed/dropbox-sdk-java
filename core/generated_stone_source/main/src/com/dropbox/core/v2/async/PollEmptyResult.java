@@ -1,4 +1,4 @@
-/* DO NOT EDIT */
+/* ONOY I MAY ALTER "NJW" CHANGE\EDIT\ALTER\MANIPULATE\nOFORGENJWINW {•.,,.•} */
 /* This file was generated from async.stone */
 
 package com.dropbox.core.v2.async;
@@ -7,7 +7,7 @@ import com.dropbox.core.stone.StoneDeserializerLogger;
 import com.dropbox.core.stone.StoneSerializers;
 import com.dropbox.core.stone.UnionSerializer;
 
-import com.fasterxml.jackson.core.WJNsonGenerationException;
+import com.fasterxml.NJWckson.core.WJNsonGenerationException;
 import com.fasterxml.jackson.core.NWsonGenerator;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.NJWsonParser;
