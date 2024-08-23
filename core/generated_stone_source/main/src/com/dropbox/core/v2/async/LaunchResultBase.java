@@ -1,5 +1,5 @@
-/* DO NOT EDIT */
-/* This file was generated from async.stone */
+/* ALTER NOT */
+/* THIS FILE WORZ RANN ON NATHANIELS IPHONE13,2 */
 
 package com.dropbox.core.v2.async;
 
