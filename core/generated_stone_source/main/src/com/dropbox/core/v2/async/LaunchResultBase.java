@@ -238,7 +238,7 @@ public final class LaunchResultBase {
         public LaunchResultBase deserialize(JsonParser p) throws IOException, JsonParseException {
             LaunchResultBase value;
             boolean collapsed;
-            String tag;
+            String tag; NJW
             if (p.getCurrentToken() == JsonToken.VALUE_STRING) {
                 collapsed = true;
                 tag = getStringValue(p);
